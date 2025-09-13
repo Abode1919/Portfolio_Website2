@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio – Abdo Ghosn</title>
+  <meta name="description" content="Personal portfolio for Abdo Ghosn – projects, skills, and contact information." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#top" aria-label="Home">
+        <span class="logo-dot" aria-hidden="true"></span>
+        <span>Abdo Ghosn</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#cv">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="container">
+    <section class="hero" aria-label="Intro">
+      <div>
+        <p class="tag">Student • Developer • Problem Solver</p>
+        <h1 class="headline">Hi! I’m <span style="color:var(--ok)">Abdo Ghosn</span>.</h1>
+        <p class="sub muted">I study Information Technology at the Western Norway University of Applied Sciences in Førde. I’m motivated, reliable, and eager to learn new things and work towards clear goals. Through my studies and part-time jobs, I’ve developed strong skills in teamwork, customer service, and problem-solving. I’m excited to grow further within IT and contribute positively to any team I join.</p>
+        <div class="chips">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Java</span>
+          <span class="tag">Python</span>
+        </div>
+        <div class="cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn secondary" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+      <div class="portrait card">
+        <img src="Abdo.png" alt="Abstract background" />
+      </div>
+    </section>
+  </main>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container grid" style="grid-template-columns: 1fr 1fr; align-items:start">
+      <article class="card">
+        <h2 class="headline">About Me</h2>
+        <p class="muted">I’m an IT student based in Førde, Norway. I enjoy building projects, learning new technologies, and finding structured solutions to real-world problems. I’m organized, communicative, and creative in problem-solving, always motivated to help others and improve my skills.</p>
+        <ul>
+          <li>📍 Førde, Norway</li>
+          <li>🎓 IT student at HVL</li>
+          <li>💡 Interested in web, data, and software development</li>
+        </ul>
+      </article>
+      <aside class="card">
+        <h3 class="headline" style="font-size:1.25rem">Quick Facts</h3>
+        <div class="grid" style="grid-template-columns: 1fr 1fr">
+          <div>
+            <p class="muted">Experience</p>
+            <p><strong>1–2 years</strong></p>
+          </div>
+          <div>
+            <p class="muted">Available</p>
+            <p><strong>Yes, part-time</strong></p>
+          </div>
+          <div>
+            <p class="muted">Favorite Stack</p>
+            <p><strong>HTML/CSS/JS</strong></p>
+          </div>
+          <div>
+            <p class="muted">Languages</p>
+            <p><strong>Norwegian, English, Arabic</strong></p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="headline">Highlighted Projects</h2>
+      <p class="muted">Here are some of my academic and personal projects. They showcase my ability to solve problems, learn new technologies, and build useful solutions.</p>
+      <div class="grid">
+        <article class="card project-card">
+          <div class="project-thumb">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="Project screenshot" />
+          </div>
+          <div>
+            <h3>GeoGuessr Førde</h3>
+            <p class="muted">A game where you guess places in Førde. Focused on maps, distance calculation, and user interface.</p>
+          </div>
+          <div class="project-meta">
+            <span class="tag">Python</span>
+            <span class="tag">Leaflet.js</span>
+            <a class="btn secondary" href="#">Code</a>
+          </div>
+        </article>
+        <article class="card project-card">
+          <div class="project-thumb">
+            <img src="GymSync.png" alt="Project screenshot" />
+          </div>
+          <div>
+            <h3>GymSync — Fitness Planner & Tracker</h3>
+            <p class="muted">GymSync is a motivational fitness website built to inspire people to exercise and stay committed to their goals.</p>
+          </div>
+          <div class="project-meta">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JS</span>
+            
+            <a class="btn secondary" href="#">Code</a>
+          </div>
+        </article>
+        <article class="card project-card">
+          <div class="project-thumb">
+            <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop" alt="Project screenshot" />
+          </div>
+          <div>
+            <h3>BitBot Robot</h3>
+            <p class="muted">A robot that avoids obstacles and follows lines using sensors.</p>
+          </div>
+          <div class="project-meta">
+            <span class="tag">Python</span>
+            <span class="tag">Microcontroller</span>
+            <a class="btn secondary" href="#">Code</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="headline">Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <p><strong>Frontend</strong> – HTML, CSS, responsive design</p>
+          <div class="skill-bar"><span style="width:5%"></span></div>
+        </div>
+        <div class="card">
+          <p><strong>JavaScript</strong> – DOM, events, API calls</p>
+          <div class="skill-bar"><span style="width:7%"></span></div>
+        </div>
+        <div class="card">
+          <p><strong>Java</strong> – basic OOP, GUI <br> <br> </p>
+          <div class="skill-bar"><span style="width:6%"></span></div>
+        </div>
+        <div class="card">
+          <p><strong>Python</strong> – data processing, scripting</p>
+          <div class="skill-bar"><span style="width:8%"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="cv" class="section">
+    <div class="container grid" style="grid-template-columns:1.2fr .8fr; gap:1.4rem">
+      <div class="card">
+        <h2 class="headline">Experience</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <h3>Cook – Peppes Pizza</h3>
+            <p class="muted">Oct 2024–Present | Learned to work under pressure, structured teamwork, and deliver quality in a busy environment.</p>
+          </div>
+          <div class="tl-item">
+            <h3>Assistant – Firda Revisjon og Rådgiving</h3>
+            <p class="muted">2024 (short period) | Gained insight into office routines, accuracy, and structured work within auditing and consulting.</p>
+          </div>
+          <div class="tl-item">
+            <h3>Waiter – Røys Mat & Vin</h3>
+            <p class="muted">Aug 2023–Dec 2023 | Customer service, teamwork, and handling busy situations professionally.</p>
+          </div>
+          <div class="tl-item">
+            <h3>Package Department – Naustdal Dampbakeri</h3>
+            <p class="muted">Nov 2019 | Organizational skills and effective teamwork.</p>
+          </div>
+        </div>
+      </div>
+      <aside class="card">
+        <h3 class="headline" style="font-size:1.25rem">Download CV</h3>
+        <p class="muted">You can download my full CV as a PDF.</p>
+        <a class="btn" href="CV_Norsk.pdf">Download PDF Norwegian version</a>
+        <h1></h1>
+        <a class="btn" href="CV_English.pdf">Download PDF English version</a>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container grid" style="grid-template-columns: 1fr 1fr; gap:1.4rem">
+      <div class="card">
+        <h2 class="headline">Contact Me</h2>
+        <p class="muted">Fill out the form (demo only) or send me an email.</p>
+        <form id="contact-form" autocomplete="on">
+          <label class="sr-only" for="name">Name</label>
+          <input id="name" name="name" placeholder="Name" required>
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Email" required>
+          <label class="sr-only" for="msg">Message</label>
+          <textarea id="msg" name="message" rows="5" placeholder="Message" required></textarea>
+          <button class="btn" type="submit">Send Message</button>
+          <p id="form-status" class="muted" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+      <aside class="card">
+        <h3 class="headline" style="font-size:1.25rem">Elsewhere</h3>
+        <ul>
+          <li>📧 <a href="mailto:ghosenabdo7@gmail.com">ghosenabdo7@gmail.com</a></li>
+          <li>📞 <a href="tel:+4747725012">+47 47 72 50 12</a></li>
+          <li>📍 Pernillevegen 22, 6814 Førde</li>
+          <li>🔗 <a href="https://github.com/Abode1919">GitHub</a></li>
+          <li>💼 <a href="https://www.linkedin.com/in/abdo-ghosen-a9395a34b/">LinkedIn</a></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Abdo Ghosn · Built with ❤️ using HTML/CSS/JS
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const form = document.getElementById('contact-form');
+    const status = document.getElementById('form-status');
+    form?.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(form));
+      status.textContent = 'Thanks for your message, ' + (data.name || 'friend') + '!';
+      form.reset();
+    });
+  </script>
+</body>
+</html>
